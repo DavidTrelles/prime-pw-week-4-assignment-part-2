@@ -1,5 +1,10 @@
+header, h1, .info, h2, h3 {
+    text-align: center;
+}
+
 header {
     background-color: aqua;
+    
 }
 .info {
     background-color: blueviolet;
@@ -11,3 +16,10 @@ h3 {
     background-color: bisque;
     color: darkgreen;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
